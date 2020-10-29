@@ -1,0 +1,7 @@
+<div class="list-group">
+    <a class="list-group-item list-group-item-action active">
+      {{title}}
+    </a>
+    <a (click)="selectUser(item)" *ngFor="let item of Users" class="list-group-item list-group-item-action">{{item.name}}</a>
+    
+  </div>
